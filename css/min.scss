@@ -6,12 +6,23 @@ h2 { font-size: 35px; font-family: $font-family; font-weight: 700; }
 h3 { font-size: 30px; font-family: $font-family; font-weight: 700; }
 h4 { font-size: 18px; font-family: $font-family; font-weight: 700; }
 span, p { font-size: 13px; font-family: $font-family; font-weight: 700; }
-
+.centrado { width: 938px; margin: 0 auto; }
+h1 { font-size: 43.1px; font-family: $font-family }
+h2 { font-size: 35px; font-family: $font-family }
+h3 { font-size: 30px; font-family: $font-family }
+h4 { font-size: 18px; font-family: $font-family }
+span, p { font-size: 13px; font-family: $font-family }
+.mt-1{margin-top: 10px}
+.mt-2{margin-top: 20px}
+.mt-3{margin-top: 30px}
+.mt-4{margin-top: 40px}
+.mt-5{margin-top: 50px}
+.mt-6{margin-top: 60px}
 /* BOTONES */
 .btnAnaranjado, .btnAnaranjado:focus { padding: $paddingBtn; background-color: $anaranjado; color: $blanco; border: 0; font-size: $font-size*1.8; outline: 0; font-weight: bold; border-radius: 2px; font-family: $font-family; cursor: pointer }
 .btnAzul, .btnAzul:focus { padding: $paddingBtn; background-color: $azul; color: $blanco; border: 0; font-size: $font-size*1.8; outline: 0; border-radius: 2px; font-family: $font-family; cursor: pointer }
 .btnAzulOscuro, .btnAzulOscuro:focus { padding: $paddingBtn; background-color: $azulOscuro; color: $blanco; border: 0; font-size: $font-size*1.8; outline: 0; border-radius: 2px; font-family: $font-family; cursor: pointer }
-.btnBlanco, .btnBlanco:focus { padding: 12px 20px; background-color: $blanco; color: $azul; border: 2px solid $azul; font-size: $font-size*1.8; outline: 0; border-radius: 2px; font-family: $font-family; cursor: pointer }
+.btnBlanco, .btnBlanco:focus { padding: $paddingBtn - 2  $paddingBtn - 2 ; background-color: $blanco; color: $azul; border: 2px solid $azul; font-size: $font-size*1.8; outline: 0; border-radius: 2px; font-family: $font-family; cursor: pointer }
 
 /* TITULOS */
 .titlePrin { font-weight: lighter; color: $azul }
@@ -33,32 +44,41 @@ span, p { font-size: 13px; font-family: $font-family; font-weight: 700; }
 .icoPrestamos:before { content: url(../img/icoPrestamos.png); position: absolute; width: 30px; height: 30px; left: -33px; }
 .icoSegurosServicios:before { content: url(../img/icoSegurosServicios.png); position: absolute; width: 30px; height: 30px; left: -33px; }
 .icoInversion:before { content: url(../img/icoInversion.png); position: absolute; width: 30px; height: 30px; left: -33px; }
+.icoUserFooter:before{ content: url(../img/icoUserFooter.png);position: absolute;left: 10px;}
+.icoEmpreFooter:before{ content: url(../img/icoEmpreFooter.png);position: absolute;left: 10px;}
 
 /* MENU */
 .menuRedes { list-style: none; }
-.menuRedes > li { display: inline-block; }
+.menuRedes > li { display: inline-block; margin-left: 25px }
 
 /* grilla y columna */
-.grilla-1 { padding: 0 1.1 * $font-size; position: relative; float: left; width: 8.33%; box-sizing: border-box; min-height: 0px; overflow: hidden; left: 0; top: 0; }
-.grilla-2 { padding: 0 1.1 * $font-size; position: relative; float: left; width: 16.66%; box-sizing: border-box; min-height: 0px; overflow: hidden; left: 0; top: 0; }
-.grilla-3 { padding: 0 1.1 * $font-size; position: relative; float: left; width: 24.99%; box-sizing: border-box; min-height: 0px; overflow: hidden; left: 0; top: 0; }
-.grilla-4 { padding: 0 1.1 * $font-size; position: relative; float: left; width: 33.32%; box-sizing: border-box; min-height: 0px; overflow: hidden; left: 0; top: 0; }
-.grilla-5 { padding: 0 1.1 * $font-size; position: relative; float: left; width: 41.65%; box-sizing: border-box; min-height: 0px; overflow: hidden; left: 0; top: 0; }
-.grilla-6 { padding: 0 1.1 * $font-size; position: relative; float: left; width: 49.98%; box-sizing: border-box; min-height: 0px; overflow: hidden; left: 0; top: 0; }
-.grilla-7 { padding: 0 1.1 * $font-size; position: relative; float: left; width: 58.31%; box-sizing: border-box; min-height: 0px; overflow: hidden; left: 0; top: 0; }
-.grilla-8 { padding: 0 1.1 * $font-size; position: relative; float: left; width: 66.64%; box-sizing: border-box; min-height: 0px; overflow: hidden; left: 0; top: 0; }
-.grilla-9 { padding: 0 1.1 * $font-size; position: relative; float: left; width: 74.97%; box-sizing: border-box; min-height: 0px; overflow: hidden; left: 0; top: 0; }
-.grilla-10 { padding: 0 1.1 * $font-size; position: relative; float: left; width: 83.3%; box-sizing: border-box; min-height: 0px; overflow: hidden; left: 0; top: 0; }
-.grilla-11 { padding: 0 1.1 * $font-size; position: relative; float: left; width: 91.63%; box-sizing: border-box; min-height: 0px; overflow: hidden; left: 0; top: 0; }
-.grilla-12 { padding: 0 1.1 * $font-size; position: relative; float: left; width: 99.96%; box-sizing: border-box; min-height: 0px; overflow: hidden; left: 0; top: 0; }
+.grilla-1 { position: relative; float: left; width: 8.33%; box-sizing: border-box; min-height: 0px; overflow: hidden; left: 0; top: 0;padding: 0 1.1 * $font-size; }
+.grilla-2 { position: relative; float: left; width: 16.66%; box-sizing: border-box; min-height: 0px; overflow: hidden; left: 0; top: 0;padding: 0 1.1 * $font-size; }
+.grilla-3 { position: relative; float: left; width: 24.99%; box-sizing: border-box; min-height: 0px; overflow: hidden; left: 0; top: 0;padding: 0 1.1 * $font-size; }
+.grilla-4 { position: relative; float: left; width: 33.32%; box-sizing: border-box; min-height: 0px; overflow: hidden; left: 0; top: 0;padding: 0 1.1 * $font-size; }
+.grilla-5 { position: relative; float: left; width: 41.65%; box-sizing: border-box; min-height: 0px; overflow: hidden; left: 0; top: 0;padding: 0 1.1 * $font-size; }
+.grilla-6 { position: relative; float: left; width: 49.98%; box-sizing: border-box; min-height: 0px; overflow: hidden; left: 0; top: 0;padding: 0 1.1 * $font-size; }
+.grilla-7 { position: relative; float: left; width: 58.31%; box-sizing: border-box; min-height: 0px; overflow: hidden; left: 0; top: 0;padding: 0 1.1 * $font-size; }
+.grilla-8 { position: relative; float: left; width: 66.64%; box-sizing: border-box; min-height: 0px; overflow: hidden; left: 0; top: 0;padding: 0 1.1 * $font-size; }
+.grilla-9 { position: relative; float: left; width: 74.97%; box-sizing: border-box; min-height: 0px; overflow: hidden; left: 0; top: 0;padding: 0 1.1 * $font-size; }
+.grilla-10 { position: relative; float: left; width: 83.3%; box-sizing: border-box; min-height: 0px; overflow: hidden; left: 0; top: 0;padding: 0 1.1 * $font-size; }
+.grilla-11 { position: relative; float: left; width: 91.63%; box-sizing: border-box; min-height: 0px; overflow: hidden; left: 0; top: 0;padding: 0 1.1 * $font-size; }
+.grilla-12 { position: relative; float: left; width: 99.96%; box-sizing: border-box; min-height: 0px; overflow: hidden; left: 0; top: 0;padding: 0 1.1 * $font-size; }
 .row { position: relative; float: none; clear: both; min-height: 0px; overflow: hidden; width: 100%; }
 .colms { position: relative; min-height: 0px; overflow: hidden; }
 .left { float: left; }
 .right { float: right; }
 .no-pd { padding: 0 0; }
-.no-pd-der { padding-right: 0; }
-.no-pd-lef { padding-left: 0; }
+.no-pl {padding-left: 0;}
+.no-pr {padding-right: 0;}
 
+/* FOOTER */
+.fondoFooter{width: 100%;background-color: #e9f0f7;border-top:1px solid #dcdcdc;border-bottom: 1px solid #dcdcdc;padding: 65px 0 30px 0 }
+.listFooter{padding: 45px 0 0 0}
+.listFooter li{font-family: $font-family}
+.titleFooter{font-size: $font-size*1.5;padding-bottom: 7px}
+.listFooter .descList{font-size: $font-size*1.3;font-weight: lighter;padding-bottom: 7px}
+.icoUserFooter,.icoEmpreFooter{margin-left: 20px;}
 /* utilitarios */
 .section { position: relative; width: 100%; min-height: 0; overflow: hidden; }
 
