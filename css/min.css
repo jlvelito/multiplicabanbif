@@ -1,5 +1,5 @@
 .centrado {
-  width: 936px;
+  width: 938px;
   margin: 0 auto; }
 
 h1 {
@@ -22,9 +22,27 @@ span, p {
   font-size: 13px;
   font-family: "helvetica"; }
 
+.mt-1 {
+  margin-top: 10px; }
+
+.mt-2 {
+  margin-top: 20px; }
+
+.mt-3 {
+  margin-top: 30px; }
+
+.mt-4 {
+  margin-top: 40px; }
+
+.mt-5 {
+  margin-top: 50px; }
+
+.mt-6 {
+  margin-top: 60px; }
+
 /* BOTONES */
 .btnAnaranjado, .btnAnaranjado:focus {
-  padding: 14px 22px;
+  padding: 10px;
   background-color: #f9762f;
   color: #ffffff;
   border: 0;
@@ -36,7 +54,7 @@ span, p {
   cursor: pointer; }
 
 .btnAzul, .btnAzul:focus {
-  padding: 14px 22px;
+  padding: 10px;
   background-color: #0096d7;
   color: #ffffff;
   border: 0;
@@ -47,7 +65,7 @@ span, p {
   cursor: pointer; }
 
 .btnAzulOscuro, .btnAzulOscuro:focus {
-  padding: 14px 22px;
+  padding: 10px;
   background-color: #005d80;
   color: #ffffff;
   border: 0;
@@ -58,7 +76,7 @@ span, p {
   cursor: pointer; }
 
 .btnBlanco, .btnBlanco:focus {
-  padding: 12px 20px;
+  padding: 8px 8px;
   background-color: #ffffff;
   color: #0096d7;
   border: 2px solid #0096d7;
@@ -194,12 +212,23 @@ span, p {
   height: 30px;
   left: -33px; }
 
+.icoUserFooter:before {
+  content: url(../img/icoUserFooter.png);
+  position: absolute;
+  left: 10px; }
+
+.icoEmpreFooter:before {
+  content: url(../img/icoEmpreFooter.png);
+  position: absolute;
+  left: 10px; }
+
 /* MENU */
 .menuRedes {
   list-style: none; }
 
 .menuRedes > li {
-  display: inline-block; }
+  display: inline-block;
+  margin-left: 25px; }
 
 /* grilla y columna */
 .grilla-1 {
@@ -210,7 +239,8 @@ span, p {
   min-height: 0px;
   overflow: hidden;
   left: 0;
-  top: 0; }
+  top: 0;
+  padding: 0 11px; }
 
 .grilla-2 {
   position: relative;
@@ -220,7 +250,8 @@ span, p {
   min-height: 0px;
   overflow: hidden;
   left: 0;
-  top: 0; }
+  top: 0;
+  padding: 0 11px; }
 
 .grilla-3 {
   position: relative;
@@ -230,7 +261,8 @@ span, p {
   min-height: 0px;
   overflow: hidden;
   left: 0;
-  top: 0; }
+  top: 0;
+  padding: 0 11px; }
 
 .grilla-4 {
   position: relative;
@@ -240,7 +272,8 @@ span, p {
   min-height: 0px;
   overflow: hidden;
   left: 0;
-  top: 0; }
+  top: 0;
+  padding: 0 11px; }
 
 .grilla-5 {
   position: relative;
@@ -250,7 +283,8 @@ span, p {
   min-height: 0px;
   overflow: hidden;
   left: 0;
-  top: 0; }
+  top: 0;
+  padding: 0 11px; }
 
 .grilla-6 {
   position: relative;
@@ -260,7 +294,8 @@ span, p {
   min-height: 0px;
   overflow: hidden;
   left: 0;
-  top: 0; }
+  top: 0;
+  padding: 0 11px; }
 
 .grilla-7 {
   position: relative;
@@ -270,7 +305,8 @@ span, p {
   min-height: 0px;
   overflow: hidden;
   left: 0;
-  top: 0; }
+  top: 0;
+  padding: 0 11px; }
 
 .grilla-8 {
   position: relative;
@@ -280,7 +316,8 @@ span, p {
   min-height: 0px;
   overflow: hidden;
   left: 0;
-  top: 0; }
+  top: 0;
+  padding: 0 11px; }
 
 .grilla-9 {
   position: relative;
@@ -290,7 +327,8 @@ span, p {
   min-height: 0px;
   overflow: hidden;
   left: 0;
-  top: 0; }
+  top: 0;
+  padding: 0 11px; }
 
 .grilla-10 {
   position: relative;
@@ -300,7 +338,8 @@ span, p {
   min-height: 0px;
   overflow: hidden;
   left: 0;
-  top: 0; }
+  top: 0;
+  padding: 0 11px; }
 
 .grilla-11 {
   position: relative;
@@ -310,7 +349,8 @@ span, p {
   min-height: 0px;
   overflow: hidden;
   left: 0;
-  top: 0; }
+  top: 0;
+  padding: 0 11px; }
 
 .grilla-12 {
   position: relative;
@@ -320,7 +360,8 @@ span, p {
   min-height: 0px;
   overflow: hidden;
   left: 0;
-  top: 0; }
+  top: 0;
+  padding: 0 11px; }
 
 .row {
   position: relative;
@@ -341,10 +382,39 @@ span, p {
 .right {
   float: right; }
 
-.pd {
-  padding: 0 10px; }
-
 .no-pd {
   padding: 0 0; }
+
+.no-pl {
+  padding-left: 0; }
+
+.no-pr {
+  padding-right: 0; }
+
+/* FOOTER */
+.fondoFooter {
+  width: 100%;
+  background-color: #e9f0f7;
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  padding: 65px 0 30px 0; }
+
+.listFooter {
+  padding: 45px 0 0 0; }
+
+.listFooter li {
+  font-family: "helvetica"; }
+
+.titleFooter {
+  font-size: 15px;
+  padding-bottom: 7px; }
+
+.listFooter .descList {
+  font-size: 13px;
+  font-weight: lighter;
+  padding-bottom: 7px; }
+
+.icoUserFooter, .icoEmpreFooter {
+  margin-left: 20px; }
 
 /*# sourceMappingURL=min.css.map */
