@@ -586,7 +586,7 @@ a {
 					color: $font-color-cabeza-claro;
 					border-bottom: 0.3 * $font-size solid #fff;
 					@include transition-property($default-transition-property);
-					@include transition-duration($default-transition-duration);
+@include transition-duration($default-transition-duration);
 				}
 				a:hover {
 					color: $azul;
