@@ -121,3 +121,16 @@ a { text-decoration: none; }
 }
 
 /*header*/
+
+/* breakpoints */
+@media (max-width:768px) {
+	.centrado { width: 100%; }
+}
+@media (max-width:660px) {
+	.centrado { width: 100%; }
+}
+@media (max-width:460px) {
+	.centrado { width: 100%; }
+}
+
+/* breakpoints */
