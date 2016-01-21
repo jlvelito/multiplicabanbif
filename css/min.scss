@@ -1,4 +1,6 @@
 $anaranjado: #f9762f; $azul: #0096d7; $azulOscuro: #005d80; $blanco: #ffffff; $font-size: 10px; $paddingBtn: 14px 22px; $font-family: "Helvetica LT Std"; $font-lite: "Helvetica 45 Light"; $font-bold: "Helvetica LT Std"; $font-mid: "HelveticaNeueLT Std Med"; $font-thin: "Helvetica 35 Thin";
+$border-color: #e2e2e2;
+
 body, html { font-family: $font-family; width: 100%; height: 100%; overflow: visible; margin: 0; font-size: $font-size; font-weight: 400; }
 .centrado { width: 938px; margin: 0 auto; position: relative; min-height: 0px; overflow: hidden; }
 h1 { font-size: 43.1px; font-family: $font-family; font-weight: 700; }
@@ -61,5 +63,27 @@ span, p { font-size: 13px; font-family: $font-family; font-weight: 700; }
 
 /* utilitarios */
 .section { position: relative; width: 100%; min-height: 0; overflow: hidden; }
+ul,ol{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
 
 /* utilitarios */
+
+/*header*/
+
+#header{
+	overflow: visible !important;
+	height: 117px;
+	border-bottom: 1px solid $border-color;
+
+	.centrado{
+		overflow: visible !important;
+	}
+}
+
+/*header*/

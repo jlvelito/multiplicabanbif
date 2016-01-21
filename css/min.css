@@ -386,6 +386,23 @@ span, p {
   min-height: 0;
   overflow: hidden; }
 
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
 /* utilitarios */
+/*header*/
+#header {
+  overflow: visible !important;
+  height: 117px;
+  border-bottom: 1px solid #e2e2e2; }
+  #header .centrado {
+    overflow: visible !important; }
+
+/*header*/
 
 /*# sourceMappingURL=min.css.map */
