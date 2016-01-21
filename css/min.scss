@@ -1,3 +1,49 @@
-body{margin:10px}
-.hola{margin:20px;}
-.adios{margin: 50px;}
+$anaranjado:#f9762f;
+$azul:#0096d7;
+$azulOscuro:#005d80;
+$blanco:#ffffff;
+$font-size:10px;
+$paddingBtn: 14px 22px;
+$font-family: "helvetica";
+
+.centrado{width:936px;margin: 0 auto; }
+
+h1{font-size: 43.1px;font-family: $font-family}
+h2{font-size: 35px;font-family: $font-family}
+h3{font-size: 30px;font-family: $font-family}
+h4{font-size: 18px;font-family: $font-family}
+span,  p{font-size: 13px;font-family: $font-family}
+
+
+/* BOTONES */
+.btnAnaranjado,.btnAnaranjado:focus{padding:$paddingBtn;background-color: $anaranjado;color: $blanco;border: 0;font-size: $font-size*1.8;outline:0;font-weight: bold;border-radius: 2px;font-family: $font-family;cursor: pointer}
+.btnAzul,.btnAzul:focus{padding:$paddingBtn;background-color: $azul;color: $blanco;border: 0;font-size: $font-size*1.8;outline:0;border-radius: 2px;font-family: $font-family;cursor: pointer}
+.btnAzulOscuro, .btnAzulOscuro:focus{padding:$paddingBtn;background-color: $azulOscuro;color: $blanco;border: 0;font-size: $font-size*1.8;outline:0;border-radius: 2px;font-family: $font-family;cursor: pointer}
+.btnBlanco, .btnBlanco:focus{padding: 12px 20px;background-color: $blanco;color: $azul;border: 2px solid $azul;font-size: $font-size*1.8;outline: 0;border-radius: 2px;font-family: $font-family;cursor: pointer} 
+
+/* TITULOS */
+.titlePrin{font-weight: lighter;color: $azul}
+.titleSec{font-weight: bold;color: $azul}
+.titleMenu{font-family:$font-family;font-size: 15px;color: $azul;display: inline-block;line-height: 30px;margin-left: 36px;position: relative;}
+
+
+/* ICONOS */
+.fontIcoRedes{background-color: $azul;border-radius: 50%;width: 30px;height: 30px;cursor: pointer;position: relative;display: block}
+.fontIcoSec{background-color: $blanco;border-radius: 50%;width: 87px;height: 87px;position: relative;display: block;border: 1px solid #d3d3d2}
+.ico-fb:before{content: "\f09a";font-size: 18px;font-family: "Fontawesome";color: #e9f0f7;position: absolute;top: 7px;left: 9px;}
+.ico-tw:before{content: "\f099";font-size: 18px;font-family: "Fontawesome";color: #e9f0f7;position: absolute;top: 7px;left: 7px;} 
+.ico-in:before{content: "\f0e1";font-size: 18px;font-family: "Fontawesome";color: #e9f0f7;position: absolute;top: 6px;left: 7px;} 
+.ico-yt:before{content: "\f167";font-size: 18px;font-family: "Fontawesome";color: #e9f0f7;position: absolute;top: 6px;left: 7px;} 
+.icoCalculadora:before{content: url(../img/icoCalculadora.png);position: absolute;top: 21px;left: 24px;}
+.icoRegalo:before{content: url(../img/icoRegalo.png);position: absolute;top: 19px;left: 25px;}
+.icoMause:before{content: url(../img/icoMause.png);position: absolute;top: 21px;left: 23px;}
+.icoCuentaAhorro:before{content: url(../img/icoCuentaAhorro.png);position: absolute;width: 30px;height: 30px;left: -33px;}
+.icoTarjetas:before{content: url(../img/icoTarjetas.png);position: absolute;width: 30px;height: 30px;left: -33px;}
+.icoPrestamos:before{content: url(../img/icoPrestamos.png);position: absolute;width: 30px;height: 30px;left: -33px;}
+.icoSegurosServicios:before{content: url(../img/icoSegurosServicios.png);position: absolute;width: 30px;height: 30px;left: -33px;}
+.icoInversion:before{content: url(../img/icoInversion.png);position: absolute;width: 30px;height: 30px;left: -33px;}
+
+
+/* MENU */
+.menuRedes{list-style:none;}
+.menuRedes > li{display: inline-block;}
