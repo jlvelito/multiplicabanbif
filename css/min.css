@@ -1,6 +1,9 @@
 .centrado {
   width: 938px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative;
+  min-height: 0px;
+  overflow: hidden; }
 
 h1 {
   font-size: 43.1px;
@@ -203,6 +206,7 @@ span, p {
 
 /* grilla y columna */
 .grilla-1 {
+  padding: 0 11px;
   position: relative;
   float: left;
   width: 8.33%;
@@ -213,6 +217,7 @@ span, p {
   top: 0; }
 
 .grilla-2 {
+  padding: 0 11px;
   position: relative;
   float: left;
   width: 16.66%;
@@ -223,6 +228,7 @@ span, p {
   top: 0; }
 
 .grilla-3 {
+  padding: 0 11px;
   position: relative;
   float: left;
   width: 24.99%;
@@ -233,6 +239,7 @@ span, p {
   top: 0; }
 
 .grilla-4 {
+  padding: 0 11px;
   position: relative;
   float: left;
   width: 33.32%;
@@ -243,6 +250,7 @@ span, p {
   top: 0; }
 
 .grilla-5 {
+  padding: 0 11px;
   position: relative;
   float: left;
   width: 41.65%;
@@ -253,6 +261,7 @@ span, p {
   top: 0; }
 
 .grilla-6 {
+  padding: 0 11px;
   position: relative;
   float: left;
   width: 49.98%;
@@ -263,6 +272,7 @@ span, p {
   top: 0; }
 
 .grilla-7 {
+  padding: 0 11px;
   position: relative;
   float: left;
   width: 58.31%;
@@ -273,6 +283,7 @@ span, p {
   top: 0; }
 
 .grilla-8 {
+  padding: 0 11px;
   position: relative;
   float: left;
   width: 66.64%;
@@ -283,6 +294,7 @@ span, p {
   top: 0; }
 
 .grilla-9 {
+  padding: 0 11px;
   position: relative;
   float: left;
   width: 74.97%;
@@ -293,6 +305,7 @@ span, p {
   top: 0; }
 
 .grilla-10 {
+  padding: 0 11px;
   position: relative;
   float: left;
   width: 83.3%;
@@ -303,6 +316,7 @@ span, p {
   top: 0; }
 
 .grilla-11 {
+  padding: 0 11px;
   position: relative;
   float: left;
   width: 91.63%;
@@ -313,6 +327,7 @@ span, p {
   top: 0; }
 
 .grilla-12 {
+  padding: 0 11px;
   position: relative;
   float: left;
   width: 99.96%;
@@ -341,10 +356,22 @@ span, p {
 .right {
   float: right; }
 
-.pd {
-  padding: 0 10px; }
-
 .no-pd {
   padding: 0 0; }
+
+.no-pd-der {
+  padding-right: 0; }
+
+.no-pd-lef {
+  padding-left: 0; }
+
+/* utilitarios */
+.section {
+  position: relative;
+  width: 100%;
+  min-height: 0;
+  overflow: hidden; }
+
+/* utilitarios */
 
 /*# sourceMappingURL=min.css.map */

@@ -6,7 +6,7 @@ $font-size:10px;
 $paddingBtn: 14px 22px;
 $font-family: "helvetica";
 
-.centrado{width:938px;margin: 0 auto; }
+.centrado{width:938px;margin: 0 auto; position: relative; min-height: 0px; overflow: hidden;}
 
 h1{font-size: 43.1px;font-family: $font-family}
 h2{font-size: 35px;font-family: $font-family}
@@ -51,6 +51,7 @@ span,  p{font-size: 13px;font-family: $font-family}
 /* grilla y columna */
 
 .grilla-1{
+	padding: 0 1.1 * $font-size;
 	position: relative;
 	float: left;
 	width: 8.33%;
@@ -61,6 +62,7 @@ span,  p{font-size: 13px;font-family: $font-family}
 }
 
 .grilla-2{
+	padding: 0 1.1 * $font-size;
 	position: relative;
 	float: left;
 	width: 16.66%;
@@ -71,6 +73,7 @@ span,  p{font-size: 13px;font-family: $font-family}
 }
 
 .grilla-3{
+	padding: 0 1.1 * $font-size;
 	position: relative;
 	float: left;
 	width: 24.99%;
@@ -81,6 +84,7 @@ span,  p{font-size: 13px;font-family: $font-family}
 }
 
 .grilla-4{
+	padding: 0 1.1 * $font-size;
 	position: relative;
 	float: left;
 	width: 33.32%;
@@ -91,6 +95,7 @@ span,  p{font-size: 13px;font-family: $font-family}
 }
 
 .grilla-5{
+	padding: 0 1.1 * $font-size;
 	position: relative;
 	float: left;
 	width: 41.65%;
@@ -101,6 +106,7 @@ span,  p{font-size: 13px;font-family: $font-family}
 }
 
 .grilla-6{
+	padding: 0 1.1 * $font-size;
 	position: relative;
 	float: left;
 	width: 49.98%;
@@ -111,6 +117,7 @@ span,  p{font-size: 13px;font-family: $font-family}
 }
 
 .grilla-7{
+	padding: 0 1.1 * $font-size;
 	position: relative;
 	float: left;
 	width: 58.31%;
@@ -121,6 +128,7 @@ span,  p{font-size: 13px;font-family: $font-family}
 }
 
 .grilla-8{
+	padding: 0 1.1 * $font-size;
 	position: relative;
 	float: left;
 	width: 66.64%;
@@ -131,6 +139,7 @@ span,  p{font-size: 13px;font-family: $font-family}
 }
 
 .grilla-9{
+	padding: 0 1.1 * $font-size;
 	position: relative;
 	float: left;
 	width: 74.97%;
@@ -142,6 +151,7 @@ span,  p{font-size: 13px;font-family: $font-family}
 
 
 .grilla-10{
+	padding: 0 1.1 * $font-size;
 	position: relative;
 	float: left;
 	width: 83.3%;
@@ -153,6 +163,7 @@ span,  p{font-size: 13px;font-family: $font-family}
 
 
 .grilla-11{
+	padding: 0 1.1 * $font-size;
 	position: relative;
 	float: left;
 	width: 91.63%;
@@ -164,6 +175,7 @@ span,  p{font-size: 13px;font-family: $font-family}
 
 
 .grilla-12{
+	padding: 0 1.1 * $font-size;
 	position: relative;
 	float: left;
 	width: 99.96%;
@@ -196,10 +208,26 @@ span,  p{font-size: 13px;font-family: $font-family}
 	float: right;
 }
 
-.pd{
-	padding: 0 1.1 * $font-size;
-}
-
 .no-pd{
 	padding: 0 0;
 }
+
+.no-pd-der{
+	padding-right: 0;
+}
+
+.no-pd-lef{
+	padding-left: 0;
+}
+
+
+/* utilitarios */
+
+.section{
+	position: relative;
+	width: 100%;
+	min-height: 0;
+	overflow: hidden;
+}
+
+/* utilitarios */
