@@ -48,3 +48,158 @@ span,  p{font-size: 13px;font-family: $font-family}
 .menuRedes{list-style:none;}
 .menuRedes > li{display: inline-block;}
 
+/* grilla y columna */
+
+.grilla-1{
+	position: relative;
+	float: left;
+	width: 8.33%;
+	box-sizing: border-box;
+	min-height: 0px;
+	overflow: hidden;
+	left: 0; top: 0;
+}
+
+.grilla-2{
+	position: relative;
+	float: left;
+	width: 16.66%;
+	box-sizing: border-box;
+	min-height: 0px;
+	overflow: hidden;
+	left: 0; top: 0;
+}
+
+.grilla-3{
+	position: relative;
+	float: left;
+	width: 24.99%;
+	box-sizing: border-box;
+	min-height: 0px;
+	overflow: hidden;
+	left: 0; top: 0;
+}
+
+.grilla-4{
+	position: relative;
+	float: left;
+	width: 33.32%;
+	box-sizing: border-box;
+	min-height: 0px;
+	overflow: hidden;
+	left: 0; top: 0;
+}
+
+.grilla-5{
+	position: relative;
+	float: left;
+	width: 41.65%;
+	box-sizing: border-box;
+	min-height: 0px;
+	overflow: hidden;
+	left: 0; top: 0;
+}
+
+.grilla-6{
+	position: relative;
+	float: left;
+	width: 49.98%;
+	box-sizing: border-box;
+	min-height: 0px;
+	overflow: hidden;
+	left: 0; top: 0;
+}
+
+.grilla-7{
+	position: relative;
+	float: left;
+	width: 58.31%;
+	box-sizing: border-box;
+	min-height: 0px;
+	overflow: hidden;
+	left: 0; top: 0;
+}
+
+.grilla-8{
+	position: relative;
+	float: left;
+	width: 66.64%;
+	box-sizing: border-box;
+	min-height: 0px;
+	overflow: hidden;
+	left: 0; top: 0;
+}
+
+.grilla-9{
+	position: relative;
+	float: left;
+	width: 74.97%;
+	box-sizing: border-box;
+	min-height: 0px;
+	overflow: hidden;
+	left: 0; top: 0;
+}
+
+
+.grilla-10{
+	position: relative;
+	float: left;
+	width: 83.3%;
+	box-sizing: border-box;
+	min-height: 0px;
+	overflow: hidden;
+	left: 0; top: 0;
+}
+
+
+.grilla-11{
+	position: relative;
+	float: left;
+	width: 91.63%;
+	box-sizing: border-box;
+	min-height: 0px;
+	overflow: hidden;
+	left: 0; top: 0;
+}
+
+
+.grilla-12{
+	position: relative;
+	float: left;
+	width: 99.96%;
+	box-sizing: border-box;
+	min-height: 0px;
+	overflow: hidden;
+	left: 0; top: 0;
+}
+
+.row{
+	position: relative;
+	float: none;
+	clear: both;
+	min-height: 0px;
+	overflow: hidden;
+	width: 100%;
+}
+
+.colms{
+	position: relative;
+	min-height: 0px;
+	overflow: hidden;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.pd{
+	padding: 0 1 * $font-size;
+}
+
+.no-pd{
+	padding: 0 0;
+}
